@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"href="./index.css">
+    <title>作业1</title>
+  </head>
+  <body>
+    <div id="app_container">
+      <div id="cd_title_container">
+          <span id="cd_title">说散就散-艾福杰克</span>
+      </div>
+      <div id="cd_cover_container">
+        <div id="cd_cover">
+        </div>
+      </div>
+      <div id="cd_bottom_container">
+        <div id="cd_bottom">
+        </div>
+        <div id="play" onclick="play()">
+          Play
+        </div>
+        <div id="pause" onclick="pause()">
+          pause
+        </div>
+      </div>
+    </div>
+    <!-- html5最新版本的插入音频播放器-audio -->
+    <!-- http://www.w3school.com.cn/html5/html5_audio.asp -->
+    <audio src="./music/说散就散.mp3" id="player"></audio>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
